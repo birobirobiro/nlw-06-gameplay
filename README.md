@@ -19,7 +19,7 @@
 ## 🧪 Technologies
 
 This project was developed using the following technologies:
-
+ 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
 
