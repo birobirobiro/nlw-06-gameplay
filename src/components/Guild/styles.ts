@@ -10,18 +10,18 @@ export const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginLeft: 20
   },
   title: {
     fontFamily: theme.fonts.title700,
     color: theme.colors.heading,
     fontSize: 18,
-    marginBottom: 11
+    marginBottom: 4
   },
   type: {
     fontFamily: theme.fonts.title700,
     color: theme.colors.heading,
     fontSize: 13,
-    marginBottom: 24
   }
 });
