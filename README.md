@@ -32,6 +32,16 @@ $ git clone https://github.com/birobirobiro/nlw-06-gameplay.git
 $ cd nlw-06-gameplay
 ```
 
+Remember to create your App on the Discord server to get the authentication credentials. Then define your App settings in the .env file (remove the example from the .env.example file).
+ 
+ ```cl
+REDIRECT_URI=
+SCOPE=
+RESPONSE_TYPE=
+CLIENT_ID=
+CDN_IMAGE=
+```
+
 Follow the steps below:
 ```bash
 # Install the dependencies
