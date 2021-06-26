@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 
 import { styles } from './styles';
+
 import { Avatar } from '../Avatar';
 import { theme } from '../../global/styles/theme';
 
@@ -20,23 +21,21 @@ type Props = {
   data: MemberProps;
 }
 
-export function Member({ data }: Props) {
+export function Member({ data }: Props){
   const { on, primary } = theme.colors;
   const isOnline = data.status === 'online';
 
   return (
     <View style={styles.container}>
-      <Avatar
-        urlImage={data.avatar_url}
-      />
+      <Avatar urlImage={data.avatar_url} />
 
       <View>
         <Text style={styles.title}>
-          {data.username}
+          { data.username }
         </Text>
 
         <View style={styles.status}>
-          <View
+          <View 
             style={[
               styles.bulletStatus,
               {
@@ -46,9 +45,8 @@ export function Member({ data }: Props) {
           />
 
           <Text style={styles.nameStatus}>
-            {isOnline ? 'Disponível' : 'Ocupado'}
+            { isOnline ? 'Disponível' : 'Ocupado' }
           </Text>
-
         </View>
       </View>
     </View>

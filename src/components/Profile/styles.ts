@@ -3,11 +3,11 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
+    flexDirection: 'row', 
     alignItems: 'center'
   },
   user: {
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   greeting: {
     fontFamily: theme.fonts.title500,
@@ -22,6 +22,6 @@ export const styles = StyleSheet.create({
   },
   message: {
     fontFamily: theme.fonts.text400,
-    color: theme.colors.heading
+    color: theme.colors.highlight
   }
-})
+});

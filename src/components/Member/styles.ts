@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
   },
   status: {
     flexDirection: 'row',
-    alignItems: 'center'  
+    alignItems: 'center'
   },
   bulletStatus: {
     width: 8,

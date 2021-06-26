@@ -1,15 +1,17 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 
-import { SignIn } from '../screens/SignIn'
-import { AuthRoutes } from './auth.routes';
 import { useAuth } from '../hooks/auth';
 
-export function Routes()  {
-  const {user} = useAuth();
+import { SignIn } from '../screens/SignIn';
+import { AppRoutes } from './app.routes';
+
+export function Routes(){
+  const { user } = useAuth();
+
   return(
-      <NavigationContainer>
-     { user.id ? <AuthRoutes /> : <SignIn />}
-      </NavigationContainer>
+    <NavigationContainer>
+     { user.id ? <AppRoutes /> : <SignIn /> }
+    </NavigationContainer>
   )
 }

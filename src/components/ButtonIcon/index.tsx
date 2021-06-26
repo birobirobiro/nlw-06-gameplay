@@ -9,11 +9,11 @@ type Props = RectButtonProps & {
   title: string;
 }
 
-export function ButtonIcon({title, ...rest} : Props) {
-  return (
+export function ButtonIcon({ title, ...rest } : Props){
+  return(
     <RectButton 
-      style={styles.container}
-      {...rest}
+      style={styles.container} 
+      {...rest }
     >
       <View style={styles.iconWrapper}>
         <Image source={DiscordImg} style={styles.icon} />
@@ -23,5 +23,5 @@ export function ButtonIcon({title, ...rest} : Props) {
         { title }
       </Text>
     </RectButton>
-  )
+  );
 }

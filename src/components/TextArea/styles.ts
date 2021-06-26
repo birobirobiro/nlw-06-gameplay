@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
     marginRight: 4,
     borderWidth: 1,
     borderColor: theme.colors.secondary50,
-    paddingLeft: 16,
+    paddingHorizontal: 16,
     paddingTop: 16,
     textAlignVertical: 'top'
   }

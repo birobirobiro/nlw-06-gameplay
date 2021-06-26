@@ -30,15 +30,15 @@ export const styles = StyleSheet.create({
   footer: {
     width: '100%',
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   dateInfo: {
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   playersInfo: {
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   date: {
     fontFamily: theme.fonts.text500,
@@ -60,4 +60,4 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     marginRight: 20
   }
-})
+});

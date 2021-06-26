@@ -1,14 +1,15 @@
 import React from 'react';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { styles }from './styles';
+
+import { styles } from './styles';
 import { theme } from '../../global/styles/theme';
 
-export function ButtonAdd({...rest} : RectButtonProps){ 
-  return(
+export function ButtonAdd({...rest}: RectButtonProps) {
+  return (
     <RectButton 
-    style={styles.container}
-    {...rest}
+      style={styles.container}
+      {...rest}
     >
       <MaterialCommunityIcons 
         name="plus"
@@ -17,5 +18,4 @@ export function ButtonAdd({...rest} : RectButtonProps){
       />
     </RectButton>
   )
-  
 }
